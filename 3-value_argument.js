@@ -5,5 +5,5 @@ if (!args[0]) {
 } else if (!args[1]) {
   console.log("HBTN");
 } else {
-  console.log("HBTN cool");
+  console.log("HBTN");
 }
