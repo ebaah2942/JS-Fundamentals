@@ -5,9 +5,9 @@ You are not allowed to use length*/
 
 const args = process.argv.slice(2);
 
-if (args[0] === undefined) {
-    console.log("No argument");
-}else if (args[1] === undefined) {
+if (!args[0]) {
+  console.log("No argument");
+} else if (!args[1]) {
   console.log("Argument found");
 } else {
   console.log("Arguments found");
